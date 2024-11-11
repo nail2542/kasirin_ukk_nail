@@ -5,10 +5,10 @@ date_default_timezone_set("Asia/Jakarta");
 error_reporting(0);
 
 	// sesuaikan dengan server anda
-	$host 	= 'localhost'; // host server
-	$user 	= 'root';  // username server
-	$pass 	= ''; // password server, kalau pakai xampp kosongin saja
-	$dbname = 'kasirdb'; // nama database anda
+	$host 	= 'localhost'; 
+	$user 	= 'root';  
+	$pass 	= ''; 
+	$dbname = 'kasirdb'; 
 	
 	try{
 		$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
